@@ -2,6 +2,8 @@
 
 An event preparation dashboard for White Carnation Queen, built from the WQC and WCQ Scavenger Hunt Google Docs on October 27, 2026.
 
+**[Open the WCQ planning dashboard](https://sabaleaarnav.github.io/wcq-planning/)** · [Manage tasks](https://github.com/Sabaleaarnav/wcq-planning/issues)
+
 The five-day week is provisionally **November 9–13, 2026**. The user specified the week of the 9th; the documents do not give calendar dates. Confirm the dates before publishing the schedule.
 
 ## Use the tracker
@@ -21,15 +23,11 @@ Four initial tasks are closed because their deliverables are present in the docs
 
 ## Hosting
 
-The repository was created **private** for review. Public publishing requires explicit approval. The workflow builds private review artifacts and skips public deployment while the repository is private.
+The repository and dashboard are **public**, approved by the owner on October 27, 2026. GitHub Pages is configured to publish through GitHub Actions. The first public deployment was verified successfully.
 
-After approval to make the task data public:
+Task changes and pushes to `main` automatically build and publish a fresh snapshot. You can also use **Actions → Refresh and publish WCQ dashboard → Run workflow** to refresh it manually.
 
-1. Change the repository visibility to public, or use an eligible GitHub plan for Pages from a private repository. A private repository alone does not make a Pages website private.
-2. Under **Settings → Pages → Build and deployment**, choose **GitHub Actions**.
-3. Run **Actions → Refresh and publish WCQ dashboard → Run workflow**. The deployment job reports the actual website URL.
-
-The workflow deliberately skips deployment from private repositories. If keeping a private source repository on an eligible plan, change the deployment condition only after confirming the intended website audience.
+The workflow skips public deployment if the repository is later made private. GitHub repository access is required to edit the plan.
 
 ## Local preview
 
