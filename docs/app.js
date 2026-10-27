@@ -85,5 +85,6 @@ document.addEventListener('click',e=>{const b=e.target.closest('button');if(!b)r
 document.addEventListener('input',e=>{if(e.target.id==='search-tasks'){filters.query=e.target.value;$('#task-results').innerHTML=taskResults();}});
 document.addEventListener('change',e=>{const key={'status-filter':'status','day-filter':'day','owner-filter':'owner'}[e.target.id];if(key){filters[key]=e.target.value;$('#task-results').innerHTML=taskResults();}});
 $('#refresh').addEventListener('click',load);
+window.addEventListener('hashchange',()=>{const next=location.hash.slice(1);if(['overview','tasks','week','notes'].includes(next)&&plan){page=next;render();}});
 const initial=location.hash.slice(1);if(['overview','tasks','week','notes'].includes(initial))page=initial;
 load();
