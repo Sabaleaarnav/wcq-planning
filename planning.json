@@ -1,0 +1,107 @@
+{
+  "name": "White Carnation Queen",
+  "repositoryURL": "https://github.com/Sabaleaarnav/wcq-planning",
+  "startDate": "2026-11-09",
+  "endDate": "2026-11-13",
+  "dateLabel": "NOV 9\u201313, 2026",
+  "dateNote": "November 9\u201313 is inferred from \u201cthe week of the 9th\u201d and needs confirmation.",
+  "sourceReadDate": "October 27, 2026",
+  "currentStatus": "The five-day lineup, five initial house confirmations, and a scavenger hunt draft are documented. Event times, task owners, and most logistics still need confirmation.",
+  "days": [
+    {
+      "date": "2026-11-09",
+      "title": "Instagram competition",
+      "description": "Instagram competition opens the week. Posting format, submission window, and judging still need confirmation."
+    },
+    {
+      "date": "2026-11-10",
+      "title": "Trivia + scavenger hunt",
+      "description": "The schedule moves from trivia to a scavenger hunt. The draft includes checkpoint trivia about Delta Chi and the V Foundation, with a planned WALC finish."
+    },
+    {
+      "date": "2026-11-11",
+      "title": "Sheet signs",
+      "description": "Sheet sign event at the house. The planning doc also calls for members to photograph the sheet signs."
+    },
+    {
+      "date": "2026-11-12",
+      "title": "Volleyball",
+      "description": "Volleyball with student section prizes. Venue, timing, rules, and prizes need confirmation."
+    },
+    {
+      "date": "2026-11-13",
+      "title": "Queen announcement",
+      "description": "Winner announcement closes the week. Pie-a-queen is an idea under consideration, not a confirmed activity.",
+      "tentative": true
+    }
+  ],
+  "houses": {
+    "confirmed": [
+      {
+        "house": "KD",
+        "liaison": "Carson"
+      },
+      {
+        "house": "Zeta",
+        "liaison": "Griff"
+      },
+      {
+        "house": "DG",
+        "liaison": "Trevor"
+      },
+      {
+        "house": "SK",
+        "liaison": "Noah"
+      },
+      {
+        "house": "Theta",
+        "liaison": "John"
+      }
+    ],
+    "note": "These five appear under \u201cSaid Yes so Far\u201d in WQC. Liaison names follow the doc; final attendance and team rosters are not verified.",
+    "likely": [
+      "GPhi",
+      "AGD",
+      "Phi Rho"
+    ],
+    "followUp": [
+      "AXO",
+      "Phi Mu",
+      "Chi O"
+    ]
+  },
+  "shirts": {
+    "sizes": {
+      "S": 6,
+      "M": 6,
+      "L": 2,
+      "XL": 1
+    },
+    "total": 15
+  },
+  "ideas": [
+    "Bring dogs out \u2014 idea only",
+    "Pie-a-queen \u2014 decision needed for Friday",
+    "Skip a meal \u2014 idea only"
+  ],
+  "scavenger": {
+    "summary": "The draft proposes a $5 entry fee, Delta Chi and V Foundation trivia, two members per checkpoint, one escort per participating team, donation QR codes, and a WALC closing discussion. Completion, permits, and reservations are not verified.",
+    "openQuestions": [
+      "Resolve 5\u20136 spots in WQC versus 10 total checkpoints / 5 per team in the detailed draft.",
+      "Replace placeholder start time and point values. Confirm donation-to-points conversion.",
+      "Confirm the WALC room booking, approved route, volunteers, and team escorts."
+    ]
+  },
+  "sources": [
+    {
+      "title": "WQC \u00b7 main planning doc",
+      "url": "https://docs.google.com/document/d/1hktA5KwxVDoeojmqKH0UI_yh67v0ujD0AzwGQP0FNDg/edit",
+      "description": "Five-day lineup, outreach notes, shirt sizes, and ideas."
+    },
+    {
+      "title": "WCQ Scavenger Hunt",
+      "url": "https://docs.google.com/document/d/16d8ze8eNHNrVdcUqV3fP0zWYqqlrUYvlxq5FSCoWf2o/edit",
+      "description": "Draft format, staffing, scoring placeholders, donations, and WALC finish."
+    }
+  ]
+}

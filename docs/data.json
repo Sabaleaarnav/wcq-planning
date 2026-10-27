@@ -1,0 +1,502 @@
+{
+  "updatedAt": "2026-10-27T18:16:18.491688+00:00",
+  "plan": {
+    "name": "White Carnation Queen",
+    "repositoryURL": "https://github.com/Sabaleaarnav/wcq-planning",
+    "startDate": "2026-11-09",
+    "endDate": "2026-11-13",
+    "dateLabel": "NOV 9\u201313, 2026",
+    "dateNote": "November 9\u201313 is inferred from \u201cthe week of the 9th\u201d and needs confirmation.",
+    "sourceReadDate": "October 27, 2026",
+    "currentStatus": "The five-day lineup, five initial house confirmations, and a scavenger hunt draft are documented. Event times, task owners, and most logistics still need confirmation.",
+    "days": [
+      {
+        "date": "2026-11-09",
+        "title": "Instagram competition",
+        "description": "Instagram competition opens the week. Posting format, submission window, and judging still need confirmation."
+      },
+      {
+        "date": "2026-11-10",
+        "title": "Trivia + scavenger hunt",
+        "description": "The schedule moves from trivia to a scavenger hunt. The draft includes checkpoint trivia about Delta Chi and the V Foundation, with a planned WALC finish."
+      },
+      {
+        "date": "2026-11-11",
+        "title": "Sheet signs",
+        "description": "Sheet sign event at the house. The planning doc also calls for members to photograph the sheet signs."
+      },
+      {
+        "date": "2026-11-12",
+        "title": "Volleyball",
+        "description": "Volleyball with student section prizes. Venue, timing, rules, and prizes need confirmation."
+      },
+      {
+        "date": "2026-11-13",
+        "title": "Queen announcement",
+        "description": "Winner announcement closes the week. Pie-a-queen is an idea under consideration, not a confirmed activity.",
+        "tentative": true
+      }
+    ],
+    "houses": {
+      "confirmed": [
+        {
+          "house": "KD",
+          "liaison": "Carson"
+        },
+        {
+          "house": "Zeta",
+          "liaison": "Griff"
+        },
+        {
+          "house": "DG",
+          "liaison": "Trevor"
+        },
+        {
+          "house": "SK",
+          "liaison": "Noah"
+        },
+        {
+          "house": "Theta",
+          "liaison": "John"
+        }
+      ],
+      "note": "These five appear under \u201cSaid Yes so Far\u201d in WQC. Liaison names follow the doc; final attendance and team rosters are not verified.",
+      "likely": [
+        "GPhi",
+        "AGD",
+        "Phi Rho"
+      ],
+      "followUp": [
+        "AXO",
+        "Phi Mu",
+        "Chi O"
+      ]
+    },
+    "shirts": {
+      "sizes": {
+        "S": 6,
+        "M": 6,
+        "L": 2,
+        "XL": 1
+      },
+      "total": 15
+    },
+    "ideas": [
+      "Bring dogs out \u2014 idea only",
+      "Pie-a-queen \u2014 decision needed for Friday",
+      "Skip a meal \u2014 idea only"
+    ],
+    "scavenger": {
+      "summary": "The draft proposes a $5 entry fee, Delta Chi and V Foundation trivia, two members per checkpoint, one escort per participating team, donation QR codes, and a WALC closing discussion. Completion, permits, and reservations are not verified.",
+      "openQuestions": [
+        "Resolve 5\u20136 spots in WQC versus 10 total checkpoints / 5 per team in the detailed draft.",
+        "Replace placeholder start time and point values. Confirm donation-to-points conversion.",
+        "Confirm the WALC room booking, approved route, volunteers, and team escorts."
+      ]
+    },
+    "sources": [
+      {
+        "title": "WQC \u00b7 main planning doc",
+        "url": "https://docs.google.com/document/d/1hktA5KwxVDoeojmqKH0UI_yh67v0ujD0AzwGQP0FNDg/edit",
+        "description": "Five-day lineup, outreach notes, shirt sizes, and ideas."
+      },
+      {
+        "title": "WCQ Scavenger Hunt",
+        "url": "https://docs.google.com/document/d/16d8ze8eNHNrVdcUqV3fP0zWYqqlrUYvlxq5FSCoWf2o/edit",
+        "description": "Draft format, staffing, scoring placeholders, donations, and WALC finish."
+      }
+    ]
+  },
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Draft the five-day event lineup",
+      "area": "Coordination",
+      "day": "All week",
+      "priority": "Medium",
+      "status": "Done",
+      "owner": "Unassigned",
+      "due": null,
+      "notes": "Documented: Monday Instagram competition; Tuesday trivia/scavenger hunt; Wednesday sheet signs; Thursday volleyball; Friday announcement. Dates and times remain a separate task.",
+      "evidence": "WQC contains the Monday\u2013Friday working lineup.",
+      "url": "https://github.com/Sabaleaarnav/wcq-planning/issues/1"
+    },
+    {
+      "id": 2,
+      "title": "Record the initial five house confirmations",
+      "area": "Outreach",
+      "day": "All week",
+      "priority": "Medium",
+      "status": "Done",
+      "owner": "Unassigned",
+      "due": null,
+      "notes": "Documented yes responses: KD, Zeta, DG, SK, and Theta. This records the initial responses; final attendance and team rosters still need verification.",
+      "evidence": "WQC \u201cSaid Yes so Far\u201d lists five houses.",
+      "url": "https://github.com/Sabaleaarnav/wcq-planning/issues/2"
+    },
+    {
+      "id": 3,
+      "title": "Capture the initial shirt size count",
+      "area": "Shirts",
+      "day": "All week",
+      "priority": "Low",
+      "status": "Done",
+      "owner": "Unassigned",
+      "due": null,
+      "notes": "Recorded sizes: S 6, M 6, L 2, XL 1; total 15. This does not confirm an order or payment.",
+      "evidence": "WQC lists these four size counts.",
+      "url": "https://github.com/Sabaleaarnav/wcq-planning/issues/3"
+    },
+    {
+      "id": 4,
+      "title": "Write the first scavenger hunt outline",
+      "area": "Scavenger hunt",
+      "day": "Tuesday",
+      "priority": "Medium",
+      "status": "Done",
+      "owner": "Unassigned",
+      "due": null,
+      "notes": "A detailed draft exists covering trivia checkpoints, entry fee, team escorts, donation QR codes, and a WALC finish. Open choices are tracked separately.",
+      "evidence": "WCQ Scavenger Hunt contains the draft event outline.",
+      "url": "https://github.com/Sabaleaarnav/wcq-planning/issues/4"
+    },
+    {
+      "id": 5,
+      "title": "Confirm the exact dates and event times",
+      "area": "Coordination",
+      "day": "All week",
+      "priority": "High",
+      "status": "To do",
+      "owner": "Unassigned",
+      "due": null,
+      "notes": "Confirm November 9\u201313, 2026 as the five-day week. Set the start/end time for each event and publish one shared schedule. Dates are inferred from the user\u2019s \u201cweek of the 9th\u201d; both docs omit calendar dates.",
+      "evidence": "Date inference needs confirmation; no event times are specified in WQC.",
+      "url": "https://github.com/Sabaleaarnav/wcq-planning/issues/5"
+    },
+    {
+      "id": 6,
+      "title": "Assign task owners and agreed deadlines",
+      "area": "Coordination",
+      "day": "All week",
+      "priority": "High",
+      "status": "To do",
+      "owner": "Unassigned",
+      "due": null,
+      "notes": "Assign one responsible person to each open task. Agree on deadlines and record them in each issue. House liaison names have not been treated as task ownership.",
+      "evidence": "No task owners or deadlines are documented.",
+      "url": "https://github.com/Sabaleaarnav/wcq-planning/issues/6"
+    },
+    {
+      "id": 7,
+      "title": "Finalize participating houses and team rosters",
+      "area": "Outreach",
+      "day": "All week",
+      "priority": "High",
+      "status": "To do",
+      "owner": "Unassigned",
+      "due": null,
+      "notes": "Reconfirm KD, Zeta, DG, SK, and Theta. Collect the final representative/team roster and participation expectations for each day. Keep personal contact details in the original private documents.",
+      "evidence": "WQC lists five initial yes responses, not a final roster.",
+      "url": "https://github.com/Sabaleaarnav/wcq-planning/issues/7"
+    },
+    {
+      "id": 8,
+      "title": "Follow up with the remaining interested houses",
+      "area": "Outreach",
+      "day": "All week",
+      "priority": "High",
+      "status": "To do",
+      "owner": "Unassigned",
+      "due": null,
+      "notes": "Verify GPhi, AGD, and Phi Rho, which appear in the likely/guaranteed list but not the yes-so-far list. Follow up with AXO, Phi Mu, and Chi O. Record confirmed responses without treating predictions as attendance.",
+      "evidence": "WQC contains different likely, maybe, and confirmed lists.",
+      "url": "https://github.com/Sabaleaarnav/wcq-planning/issues/8"
+    },
+    {
+      "id": 9,
+      "title": "Finalize scoring, participation points, and tiebreakers",
+      "area": "Decisions",
+      "day": "All week",
+      "priority": "High",
+      "status": "To do",
+      "owner": "Unassigned",
+      "due": null,
+      "notes": "Set the scoring method across all five days, participation points, trivia points, donation conversion, tiebreakers, and who verifies the final totals. Replace every XX placeholder in the scavenger hunt plan.",
+      "evidence": "The scavenger plan leaves participation points, correct-answer points, and donation conversion unresolved.",
+      "url": "https://github.com/Sabaleaarnav/wcq-planning/issues/9"
+    },
+    {
+      "id": 10,
+      "title": "Verify required reservations and event approvals",
+      "area": "Coordination",
+      "day": "All week",
+      "priority": "High",
+      "status": "To do",
+      "owner": "Unassigned",
+      "due": null,
+      "notes": "Confirm each venue and any required campus/chapter event approvals. Obtain actual reservation details, including the planned WALC finish. Record confirmation evidence when complete.",
+      "evidence": "The scavenger plan calls for a reserved WALC room; it does not include booking evidence.",
+      "url": "https://github.com/Sabaleaarnav/wcq-planning/issues/10"
+    },
+    {
+      "id": 11,
+      "title": "Confirm the fundraising and donation tracking process",
+      "area": "Fundraising",
+      "day": "All week",
+      "priority": "High",
+      "status": "To do",
+      "owner": "Unassigned",
+      "due": null,
+      "notes": "Confirm the V Foundation donation destination and the method for attributing donations to houses. Verify the QR code destination, who tallies totals, and how final amounts are reconciled. No fundraising totals are assumed.",
+      "evidence": "The scavenger draft describes donation QR codes and house-level totals.",
+      "url": "https://github.com/Sabaleaarnav/wcq-planning/issues/11"
+    },
+    {
+      "id": 12,
+      "title": "Confirm shirt order, quantities, and delivery",
+      "area": "Shirts",
+      "day": "All week",
+      "priority": "Medium",
+      "status": "To do",
+      "owner": "Unassigned",
+      "due": null,
+      "notes": "Verify the recorded size list is final, confirm whether shirts have been ordered, and record the delivery/distribution plan. Initial count: S 6, M 6, L 2, XL 1.",
+      "evidence": "Only a size count is documented; ordering and delivery are not confirmed.",
+      "url": "https://github.com/Sabaleaarnav/wcq-planning/issues/12"
+    },
+    {
+      "id": 13,
+      "title": "Prepare and share the event week promotion",
+      "area": "Promotion",
+      "day": "Monday",
+      "priority": "High",
+      "status": "To do",
+      "owner": "Unassigned",
+      "due": null,
+      "notes": "Prepare one event week graphic with confirmed dates, times, locations, participation rules, and fundraising link. Share through the team\u2019s agreed channels after the schedule is verified.",
+      "evidence": "WQC names the events but does not confirm promotional materials.",
+      "url": "https://github.com/Sabaleaarnav/wcq-planning/issues/13"
+    },
+    {
+      "id": 14,
+      "title": "Set Instagram competition rules and submission window",
+      "area": "Promotion",
+      "day": "Monday",
+      "priority": "High",
+      "status": "To do",
+      "owner": "Unassigned",
+      "due": null,
+      "notes": "Decide the entry/post format, required tags, opening/closing times, scoring, and who checks results. Make the rules available to participating houses.",
+      "evidence": "Monday is \u201cInsta Comp\u201d; format and judging details are absent.",
+      "url": "https://github.com/Sabaleaarnav/wcq-planning/issues/14"
+    },
+    {
+      "id": 15,
+      "title": "Assign Instagram entry collection and result verification",
+      "area": "Promotion",
+      "day": "Monday",
+      "priority": "Medium",
+      "status": "To do",
+      "owner": "Unassigned",
+      "due": null,
+      "notes": "Name who collects eligible posts, captures the result at the deadline, and adds verified points to the overall score record.",
+      "evidence": "Instagram competition operations are not specified.",
+      "url": "https://github.com/Sabaleaarnav/wcq-planning/issues/15"
+    },
+    {
+      "id": 16,
+      "title": "Resolve the scavenger hunt checkpoint count",
+      "area": "Decisions",
+      "day": "Tuesday",
+      "priority": "High",
+      "status": "To do",
+      "owner": "Unassigned",
+      "due": null,
+      "notes": "Choose one route structure. WQC says 5\u20136 spots. The detailed plan proposes 10 total checkpoints, with 5 assigned to each team. Confirm the final count before preparing trivia and volunteer shifts.",
+      "evidence": "The two source documents disagree about checkpoint count.",
+      "url": "https://github.com/Sabaleaarnav/wcq-planning/issues/16"
+    },
+    {
+      "id": 17,
+      "title": "Confirm scavenger hunt time, route, and WALC finish",
+      "area": "Scavenger hunt",
+      "day": "Tuesday",
+      "priority": "High",
+      "status": "To do",
+      "owner": "Unassigned",
+      "due": null,
+      "notes": "Replace X:XX PM with the actual start time. Confirm the publicly accessible route and WALC room reservation. Prepare the participant briefing and a plan for weather or venue changes.",
+      "evidence": "Start time is a placeholder; the finish is described as WALC without reservation evidence.",
+      "url": "https://github.com/Sabaleaarnav/wcq-planning/issues/17"
+    },
+    {
+      "id": 18,
+      "title": "Staff scavenger checkpoints and team escorts",
+      "area": "Scavenger hunt",
+      "day": "Tuesday",
+      "priority": "High",
+      "status": "To do",
+      "owner": "Unassigned",
+      "due": null,
+      "notes": "Once the checkpoint count and number of teams are known, assign two members per checkpoint and one escort per participating team. Record names and shift instructions in the private operations plan.",
+      "evidence": "The detailed scavenger draft specifies two checkpoint members and one team escort.",
+      "url": "https://github.com/Sabaleaarnav/wcq-planning/issues/18"
+    },
+    {
+      "id": 19,
+      "title": "Prepare trivia questions and handwritten clue cards",
+      "area": "Scavenger hunt",
+      "day": "Tuesday",
+      "priority": "High",
+      "status": "To do",
+      "owner": "Unassigned",
+      "due": null,
+      "notes": "Write the approved Delta Chi/V Foundation trivia set and clue cards. The draft calls for five trivia questions per checkpoint; WQC suggests nice Delta Chi cards with cursive clues. Keep answers and unreleased clues private.",
+      "evidence": "Both source docs describe trivia and Delta Chi clue cards.",
+      "url": "https://github.com/Sabaleaarnav/wcq-planning/issues/19"
+    },
+    {
+      "id": 20,
+      "title": "Prepare donation QR codes and score recording sheets",
+      "area": "Scavenger hunt",
+      "day": "Tuesday",
+      "priority": "Medium",
+      "status": "To do",
+      "owner": "Unassigned",
+      "due": null,
+      "notes": "Test the correct donation QR code, print materials, and prepare a consistent way to record each team\u2019s answers, attendance, and attributed donations. Confirm the proposed $5 entry fee and handling process.",
+      "evidence": "The scavenger draft proposes printed QR codes, entry fee, and answer logging.",
+      "url": "https://github.com/Sabaleaarnav/wcq-planning/issues/20"
+    },
+    {
+      "id": 21,
+      "title": "Confirm sheet sign format, location, and scoring",
+      "area": "Sheet signs",
+      "day": "Wednesday",
+      "priority": "High",
+      "status": "To do",
+      "owner": "Unassigned",
+      "due": null,
+      "notes": "Confirm that the event is at the house, set timing, define entry/display rules and judging, and arrange materials or setup needs.",
+      "evidence": "Wednesday is a sheet sign event \u201chere\u201d; details are not finalized.",
+      "url": "https://github.com/Sabaleaarnav/wcq-planning/issues/21"
+    },
+    {
+      "id": 22,
+      "title": "Assign sheet sign photography and collection",
+      "area": "Sheet signs",
+      "day": "Wednesday",
+      "priority": "Medium",
+      "status": "To do",
+      "owner": "Unassigned",
+      "due": null,
+      "notes": "Assign members to photograph sheet signs and collect the images in one shared location. Confirm when photos are due and how they support judging or promotion.",
+      "evidence": "WQC specifically asks the guys to take pictures of sheet signs.",
+      "url": "https://github.com/Sabaleaarnav/wcq-planning/issues/22"
+    },
+    {
+      "id": 23,
+      "title": "Confirm volleyball venue, time, and equipment",
+      "area": "Volleyball",
+      "day": "Thursday",
+      "priority": "High",
+      "status": "To do",
+      "owner": "Unassigned",
+      "due": null,
+      "notes": "Secure the court/venue, confirm timing, and verify nets, balls, scorekeeping, setup, and cleanup responsibilities.",
+      "evidence": "Thursday volleyball is listed without venue or timing details.",
+      "url": "https://github.com/Sabaleaarnav/wcq-planning/issues/23"
+    },
+    {
+      "id": 24,
+      "title": "Set volleyball team format and match schedule",
+      "area": "Volleyball",
+      "day": "Thursday",
+      "priority": "High",
+      "status": "To do",
+      "owner": "Unassigned",
+      "due": null,
+      "notes": "Confirm team sizes, game rules, match format, officiating, points toward WCQ, and a schedule that fits the participating houses.",
+      "evidence": "The planning doc does not include volleyball rules or match structure.",
+      "url": "https://github.com/Sabaleaarnav/wcq-planning/issues/24"
+    },
+    {
+      "id": 25,
+      "title": "Arrange volleyball student section prizes",
+      "area": "Volleyball",
+      "day": "Thursday",
+      "priority": "Medium",
+      "status": "To do",
+      "owner": "Unassigned",
+      "due": null,
+      "notes": "Decide the prizes, how the student section earns them, who obtains them, and who distributes them. Confirm the purchase plan before spending.",
+      "evidence": "WQC lists student section prizes for volleyball.",
+      "url": "https://github.com/Sabaleaarnav/wcq-planning/issues/25"
+    },
+    {
+      "id": 26,
+      "title": "Decide whether Friday includes pie-a-queen",
+      "area": "Decisions",
+      "day": "Friday",
+      "priority": "High",
+      "status": "To do",
+      "owner": "Unassigned",
+      "due": null,
+      "notes": "Decide whether to include pie-a-queen after the announcement. If approved, confirm participant consent, setup, supplies, cleanup, and the fundraising format. Otherwise keep Friday as announcement only.",
+      "evidence": "WQC marks pie-a-queen as a question/idea, not a confirmed activity.",
+      "url": "https://github.com/Sabaleaarnav/wcq-planning/issues/26"
+    },
+    {
+      "id": 27,
+      "title": "Prepare the winner announcement and presentation",
+      "area": "Finale",
+      "day": "Friday",
+      "priority": "High",
+      "status": "To do",
+      "owner": "Unassigned",
+      "due": null,
+      "notes": "Confirm announcement time/location, presenter, winner verification, recognition materials, and the order of the finale. Build in time to validate all scores before announcing.",
+      "evidence": "Friday\u2019s announcement is in the working lineup.",
+      "url": "https://github.com/Sabaleaarnav/wcq-planning/issues/27"
+    },
+    {
+      "id": 28,
+      "title": "Confirm finale volunteers, supplies, and cleanup",
+      "area": "Finale",
+      "day": "Friday",
+      "priority": "Medium",
+      "status": "To do",
+      "owner": "Unassigned",
+      "due": null,
+      "notes": "Assign event setup, hosting, photos, supplies, and cleanup. Add pie-a-queen requirements only after the decision is confirmed.",
+      "evidence": "Friday operational responsibilities are not documented.",
+      "url": "https://github.com/Sabaleaarnav/wcq-planning/issues/28"
+    },
+    {
+      "id": 29,
+      "title": "Verify final scores and publish the event recap",
+      "area": "Finale",
+      "day": "Friday",
+      "priority": "Medium",
+      "status": "To do",
+      "owner": "Unassigned",
+      "due": null,
+      "notes": "Have the agreed scorekeepers verify participation, event points, and donation attribution. Confirm the winner before publishing the announcement and recap.",
+      "evidence": "Scoring and donation totals require a final verification process.",
+      "url": "https://github.com/Sabaleaarnav/wcq-planning/issues/29"
+    },
+    {
+      "id": 30,
+      "title": "Reconcile donations and thank participating houses",
+      "area": "Fundraising",
+      "day": "All week",
+      "priority": "Medium",
+      "status": "To do",
+      "owner": "Unassigned",
+      "due": null,
+      "notes": "After the week, verify the fundraising total through the approved donation records and prepare acknowledgments for participants, volunteers, and supporters.",
+      "evidence": "Suggested follow-through task derived from the draft fundraising plan; not a documented completed activity.",
+      "url": "https://github.com/Sabaleaarnav/wcq-planning/issues/30"
+    }
+  ]
+}

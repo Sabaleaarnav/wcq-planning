@@ -1,0 +1,57 @@
+name: WCQ task
+description: Track preparation, a decision, or a follow-up for White Carnation Queen.
+title: ""
+body:
+  - type: dropdown
+    id: status
+    attributes:
+      label: Status
+      options: [To do, In progress, Blocked]
+      default: 0
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options: [Coordination, Decisions, Outreach, Promotion, Scavenger hunt, Sheet signs, Volleyball, Finale, Fundraising, Shirts]
+    validations:
+      required: true
+  - type: dropdown
+    id: day
+    attributes:
+      label: Event day
+      options: [All week, Monday, Tuesday, Wednesday, Thursday, Friday]
+    validations:
+      required: true
+  - type: input
+    id: owner
+    attributes:
+      label: Owner
+      description: Plain name of the responsible person, or use GitHub assignees.
+      placeholder: Unassigned
+  - type: input
+    id: due
+    attributes:
+      label: Due date
+      description: Confirmed deadline in YYYY-MM-DD format. Leave blank until agreed.
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      options: [High, Medium, Low]
+      default: 1
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: What needs doing, completion criteria, and any blockers.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Source or confirmation. Close the issue when the task is complete.
