@@ -15,6 +15,8 @@ The five-day week is provisionally **November 9–13, 2026**. The user specified
 
 Every task change rebuilds a snapshot through GitHub Actions. After Pages is enabled, it also publishes the updated website. The browser reads this shared snapshot; it does not store separate copies of task edits. Refresh loads the latest published snapshot. Changes made in Google Docs are not automatically imported.
 
+Only task issues created by repository owners, members, or collaborators are imported into the dashboard. Public visitors can view the plan; an outside issue submission does not become a planning task.
+
 Four initial tasks are closed because their deliverables are present in the docs: working lineup, initial house confirmations, shirt size count, and first scavenger outline. Other completion states are unverified. Initial confirmations are not a final team roster; shirt counts do not mean an order was placed.
 
 ## Hosting

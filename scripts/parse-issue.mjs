@@ -1,4 +1,7 @@
 const allowedStatus = ['To do','In progress','Blocked','Done'];
+export function isPlanningTask(issue) {
+  return !issue.pull_request && ['OWNER','MEMBER','COLLABORATOR'].includes(issue.author_association) && /### Status\s*\n/i.test(issue.body || '');
+}
 export function section(body, title) {
   const escaped = title.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
   const match = body.match(new RegExp(`^### ${escaped}\\s*\\n([\\s\\S]*?)(?=^### |$(?![\\s\\S]))`, 'mi'));

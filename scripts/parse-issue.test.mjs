@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {parseIssue,section} from './parse-issue.mjs';
+import {parseIssue,section,isPlanningTask} from './parse-issue.mjs';
 const issue=(body,state='open')=>({number:42,title:'Confirm venue',body,state,html_url:'https://github.com/example/wcq/issues/42',assignees:[{login:'coordinator'}]});
 test('reads all multiline issue form sections without swallowing adjacent headings',()=>{
  const body='### Status\n\nBlocked\n\n### Area\n\nCoordination\n\n### Event day\n\nTuesday\n\n### Owner\n\nAlex\n\n### Due date\n\n2026-11-05\n\n### Priority\n\nHigh\n\n### Notes\n\nWaiting on the room.\nConfirm capacity too.\n\n### Evidence\n\nReservation pending.';
@@ -20,4 +20,11 @@ test('invalid or impossible dates are not accepted',()=>{
 });
 test('missing sections do not crash imports',()=>{
  assert.equal(section('Notes only','Status'),'');assert.equal(parseIssue(issue(null)).status,'To do');
+});
+test('public submissions cannot become team planning tasks',()=>{
+ const base={...issue('### Status\nTo do'),author_association:'OWNER'};
+ assert.equal(isPlanningTask(base),true);
+ assert.equal(isPlanningTask({...base,author_association:'COLLABORATOR'}),true);
+ assert.equal(isPlanningTask({...base,author_association:'NONE'}),false);
+ assert.equal(isPlanningTask({...base,pull_request:{url:'https://example.com'}}),false);
 });
